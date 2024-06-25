@@ -1,0 +1,108 @@
+body{
+    background-color: #171717;
+}
+
+.form{
+    background-color: #313131;
+    width: 400px;
+    height: 500px;
+    border-radius: 8px;
+    border: 1px solid #454545;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containers{
+    display:flex;
+    gap: 100px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    margin-bottom: 20px;
+}
+
+.toggle-password-button{
+    margin-left: -23px;
+}
+
+input{
+    border: none;
+    background: none;
+    border-bottom: 1px solid #737373;
+    width: 300px;
+    padding-bottom: 5px;
+}
+
+p{
+    color: #FF5620;
+    margin: 0;
+}
+
+.toggle-password-button{
+    background: none;
+    border: none;
+}
+
+.checkBox{
+    accent-color: #00AE1C;
+    width: auto;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+label{
+    color: #fff;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.acception{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.imp-info{
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    opacity: 80%;
+    width: 300px;
+    display: flex;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    color: #fff;
+}
+
+.button{
+    background-color: #00AE1C;
+    color: #fff;
+    width: 300px;
+    height: 36px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btnInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+h1{
+    color: #fff;
+}
